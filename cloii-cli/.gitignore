@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# Desktop
+desktop/node_modules/
+desktop/dist/
+desktop/release/
+
+# Config
+~/.config/cloii-cli/
+
+# OS
+.DS_Store
+Thumbs.db
