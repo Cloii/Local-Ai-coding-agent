@@ -9,7 +9,11 @@ description = "Personal AI coding agent CLI — local and free-tier cloud models
 authors = [{name = "Cloii"}]
 requires-python = ">=3.10"
 license = {text = "MIT"}
-dependencies = []
+dependencies = [
+    "rich>=13.0.0",
+    "pygments>=2.14.0",
+    "requests>=2.31.0",
+]
 
 [project.scripts]
 mycli = "cloii_cli.__main__:main"
