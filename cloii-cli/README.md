@@ -4,6 +4,10 @@
 
 Built from scratch for my own workflow. Supports **Ollama** (local/offline), **Groq** (free tier, fast), and **OpenRouter** (free models). CLI + Desktop GUI.
 
+## Screenshots
+
+![Demo](./screenshots/demo.png)
+
 ---
 
 ## Features
@@ -32,15 +36,15 @@ cd cloii-cli
 pip install -e .
 
 # Run with Ollama (make sure Ollama is running)
-cloii
+mycli
 
 # Run with Groq (free tier)
 export GROQ_API_KEY=your_key_here
-cloii --provider groq --model llama-3.3-70b-versatile
+mycli --provider groq --model llama-3.3-70b-versatile
 
 # Run with OpenRouter (free models)
 export OPENROUTER_API_KEY=your_key_here
-cloii --provider openrouter --model meta-llama/llama-3.3-70b-instruct:free
+mycli --provider openrouter --model meta-llama/llama-3.3-70b-instruct:free
 ```
 
 ### Desktop GUI
